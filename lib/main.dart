@@ -1,6 +1,8 @@
+import 'package:barteromeo_flutter/di.dart';
 import 'package:flutter/material.dart';
 
 void main() {
+  configureDependencies();
   runApp(MyApp());
 }
 
